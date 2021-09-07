@@ -1,13 +1,22 @@
-
+//Clase director
 public class Concesionario {
-    private CarroBuilder carbuilder;
+    private CarroBuilder carrobuilder;
     
     public void setCarBuilder(CarroBuilder cb){
-        carbuilder = cb;
+        carrobuilder = cb;
     }
     
     public Carro getCarro(){
-        return carbuilder.getCarro();
+        return carrobuilder.getCarro();
     }
     
+    public void buildCarro(){
+        carrobuilder.crearCarro();
+        carrobuilder.buildcilindraje();
+        carrobuilder.buildpotencia();
+        carrobuilder.buildmarca();
+        carrobuilder.buildmodelo();
+        carrobuilder.buildcombustible();
+        carrobuilder.buildpuertas();
+    }
 }

@@ -2,33 +2,33 @@
 public class Berlina extends CarroBuilder{
 
     @Override
-    public void buildCilindraje() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void buildcilindraje() {
+        carro.setCilindraje(1997);
     }
 
     @Override
     public void buildpotencia() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        carro.setPotencia(130);
     }
 
     @Override
     public void buildmarca() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        carro.setMarca("Peugeot");
     }
 
     @Override
     public void buildmodelo() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        carro.setModelo("Peugeot 508");
     }
 
     @Override
     public void buildcombustible() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        carro.setCombustible(7);
     }
 
     @Override
     public void buildpuertas() {
-        carro.setPuertas(4);
+        carro.setPuertas(5);
     }
     
 }

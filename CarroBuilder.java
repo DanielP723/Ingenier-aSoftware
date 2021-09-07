@@ -10,7 +10,7 @@ public abstract class CarroBuilder {
         carro = new Carro();
     }
     
-    public abstract void buildCilindraje();
+    public abstract void buildcilindraje();
     public abstract void buildpotencia();
     public abstract void buildmarca();
     public abstract void buildmodelo();

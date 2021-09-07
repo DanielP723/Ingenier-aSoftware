@@ -2,28 +2,28 @@
 public class Monovolumen extends CarroBuilder {
 
     @Override
-    public void buildCilindraje() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void buildcilindraje() {
+        carro.setCilindraje(1995);
     }
 
     @Override
     public void buildpotencia() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        carro.setPotencia(120);
     }
 
     @Override
     public void buildmarca() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        carro.setMarca("Renault");
     }
 
     @Override
     public void buildmodelo() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        carro.setModelo("Espace I");
     }
 
     @Override
     public void buildcombustible() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        carro.setCombustible(9);
     }
 
     @Override
