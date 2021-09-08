@@ -6,7 +6,7 @@ public class Main {
         Logger logger1 = Logger.getInstance();
         Logger logger2 = Logger.getInstance();
         
-        logger1.setValue("xd");
+        logger1.setValue("log1");
         System.out.println(logger2.getValue());
         
     }
