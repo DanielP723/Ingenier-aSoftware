@@ -1,9 +1,9 @@
 
 public abstract class Personajes implements Prototype{
-    private String nombre;
-    private int altura;
-    private int peso;
-    private int inteligencia;
+    String nombre;
+    int altura;
+    int peso;
+    int inteligencia;
 
     public Personajes(String nombre, int altura, int peso, int inteligencia) {
         this.nombre = nombre;

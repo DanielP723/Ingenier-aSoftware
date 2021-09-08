@@ -14,5 +14,14 @@ public class Principe extends Personajes{
         return new Principe(this);
     }
     
+    @Override
+    public String toString(){
+        if (inteligencia < 90){
+            return("Mi nombre es "+nombre+" y soy un Principe, mido "+altura+" centímetros y peso "+peso+" kilos y soy bobo");
+        }else{
+            return("Mi nombre es "+nombre+" y soy un Principe, mido "+altura+" centímetros y peso "+peso+" kilos y soy listo");
+        }
+        
+    }
     
 }

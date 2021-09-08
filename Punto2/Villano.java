@@ -14,5 +14,14 @@ public class Villano extends Personajes{
         return new Villano(this);
     }
     
+    @Override
+    public String toString(){
+        if (inteligencia < 90){
+            return("Mi nombre es "+nombre+" y soy un Villano, mido "+altura+" centímetros y peso "+peso+" kilos y soy bobo");
+        }else{
+            return("Mi nombre es "+nombre+" y soy un Villano, mido "+altura+" centímetros y peso "+peso+" kilos y soy listo");
+        }
+        
+    }
     
 }
